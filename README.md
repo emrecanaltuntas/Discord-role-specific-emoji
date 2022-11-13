@@ -15,8 +15,8 @@ then add, set, or remove the specified role(s) | **`.add(['<Role ID>', '<Role ID
 ## Add emoji to role(s)
 **`message.guild.emojis.cache.get('<Emote ID>').roles.add('<Role ID>')`**
 
-## Remove emoji from role(s)
+## Set emoji from role(s)
 **`message.guild.emojis.cache.get('<Emote ID>').roles.set('<Role ID>')`**
 
-## Set emoji to role(s)
+## Remove emoji to role(s)
 **`message.guild.emojis.cache.get('<Emote ID>').roles.remove('<Role ID>')`**
